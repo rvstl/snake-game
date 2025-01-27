@@ -1,0 +1,3 @@
+to setup git ---->
+git remote remove origin
+git remote add origin http...
