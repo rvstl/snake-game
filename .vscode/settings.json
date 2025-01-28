@@ -16,5 +16,6 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "css.validate": false
+  "css.validate": false,
+  "editor.tabSize": 2
 }
