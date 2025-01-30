@@ -1,6 +1,6 @@
 * {
-  padding: 2px;
-  margin: 2px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -9,4 +9,32 @@ th,
 td {
   border: 2px solid black;
   border-collapse: collapse;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  padding: 4px;
+  border: 0.5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  div {
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+}
+
+.board {
+  width: max-content;
+  height: max-content;
+  display: grid;
+  border: 5px solid black;
 }
